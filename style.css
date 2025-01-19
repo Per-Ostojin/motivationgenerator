@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16111a; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.quote-card {
+    display: flex;
+    justify-content: center;
+    background-color: #2d2039; 
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 400px; 
+    min-height: 300px; 
+    margin: 0 auto;
+    color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advice {
+    color: #A638f6;
+}
+
+.quote {
+    font-size: 28px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.divider img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.quote-button {
+    width: 70px;
+    height: 70px;
+    background-color: #A638f6; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -35px; 
+    left: 50%;
+    transform: translateX(-50%);
+    transition: box-shadow 0.3s;
+}
+
+.quote-button:hover {
+    box-shadow: 0 0 20px 5px rgba(166, 56, 246, 0.7);
+}
+
+.quote-button svg {
+    width: 30px; 
+    height: auto;
+    pointer-events: none;
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+.logo img {
+    max-width: 150px;
+}

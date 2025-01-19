@@ -1,0 +1,42 @@
+
+@media (max-width: 320px) {
+    .quote-card {
+        max-width: 300px; 
+        padding: 20px;
+    }
+
+    .divider img {
+        width: 80%; 
+        max-width: 100%;
+    }
+
+    .quote-button {
+        width: 60px; 
+        height: 60px;
+        bottom: -30px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .quote-card {
+        padding: 40px;
+    }
+
+    .divider img {
+        max-width: 400px;
+    }
+
+    .quote-button {
+        width: 80px; 
+        height: 80px;
+        bottom: -40px;
+    }
+}
+
+
+@media (hover: none) and (max-width: 1024px) {
+    .quote-button:hover {
+        box-shadow: none; 
+    }
+}
